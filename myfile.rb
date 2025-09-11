@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 # The Octocat class tells you about different breeds of Octocat
 class Octocat
   def initialize(name, *breeds)
@@ -7,7 +6,7 @@ class Octocat
     @name = name
     @breeds = breeds
   end
-
+  
   def display
     breed = @breeds.join("-")
 
@@ -17,5 +16,3 @@ end
 
 m = Octocat.new("Mona", "cat", "octopus")
 m.display
-
-
