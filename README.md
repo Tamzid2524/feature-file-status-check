@@ -1,4 +1,4 @@
 # feature-file-status-check
-A test repo for status check plug-in.
+A test repo for status check plug-in for feature files.
 
 
